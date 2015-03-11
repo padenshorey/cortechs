@@ -9,7 +9,7 @@ public class LM_Album : MonoBehaviour {
 	private bool lerp = false;
 	private float y = 0;
 	//true = up, false = down
-	private bool direction = true;
+	public bool direction = true;
 
 	void Start() {
 
